@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+html {
+  box-sizing: border-box;
+}
+
+*,*:before,*:after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #D8E1E9;
+  height: 100vh;
+  font-family: 'Poppins', sans-serif;
+}
+
+main {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 558px;
+  background-color: white;
+  padding: 25px 32px;
+  border-radius: 10px;
+}
+
+.card_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card_header-perfil {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+
+
+.card_header .card_header-perfil img {
+  width: 60px;
+}
+
+.card_header-perfil p {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.card_header-perfil p span {
+  display: block;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.card_header img {
+  width: 22px;
+}
+
+.card_body {
+  margin-top: 14px;
+}
+
+.card_body-description {
+  position: relative;
+}
+
+.card_body-description p {
+  font-size: 14px;
+  color: rgba(0,0,0,0.7);
+}
+
+.card_body-description span {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.card_body-img {
+  width: 100%;
+  margin-top: 17px;
+}
